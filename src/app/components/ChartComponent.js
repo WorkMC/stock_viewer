@@ -54,9 +54,6 @@ export const ChartComponent = props => {
             },
             crosshair: {
                 mode: 3,
-            },
-            layout: {
-                attributionLogo: false,
             }
         });
 
@@ -140,4 +137,5 @@ export const ChartComponent = props => {
              style={{position: "absolute", width: "100%", height: "100%"}}/>
     );
 }
+
 
